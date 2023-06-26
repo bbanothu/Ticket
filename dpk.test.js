@@ -6,7 +6,6 @@ describe("deterministicPartitionKey", () => {
     expect(trivialKey).toBe("0");
   });
 
-
   it("Makes a key when partitionKey does not exist", () => {
     const event = {
       data: "example",

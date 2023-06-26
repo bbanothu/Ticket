@@ -9,3 +9,5 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+I split this out into 3 functions. One to generate the key, one to get the candidate key initally and the core function keeps the final logic on wheter or not to recreate the key. I've tested all different versions of the input and how the flow should work. Removed some redundant if statements and made it a bit easier to read as well.
+Time spent - 10 minutes
